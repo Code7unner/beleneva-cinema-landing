@@ -489,8 +489,8 @@ export default function BelenevaCinemaLanding() {
             </div>
 
             <div className="relative overflow-hidden rounded-lg">
-              <div className="flex gap-4 overflow-x-auto pb-4 scrollbar-hide">
-                <div className="flex-shrink-0 w-80 h-60 relative rounded-lg overflow-hidden">
+              <div className="flex gap-4 overflow-x-auto pb-4 scrollbar-hide justify-start md:justify-center">
+                <div className="flex-shrink-0 w-72 sm:w-80 lg:w-96 h-48 sm:h-60 lg:h-72 relative rounded-lg overflow-hidden">
                   <Image
                     src="/images/student-performance-1.jpg"
                     alt="Студентка на сцене"
@@ -498,22 +498,22 @@ export default function BelenevaCinemaLanding() {
                     className="object-cover"
                   />
                 </div>
-                <div className="flex-shrink-0 w-80 h-60 relative rounded-lg overflow-hidden">
+                <div className="flex-shrink-0 w-72 sm:w-80 lg:w-96 h-48 sm:h-60 lg:h-72 relative rounded-lg overflow-hidden">
                   <Image src="/images/classroom-1.jpg" alt="Занятие в классе" fill className="object-cover" />
                 </div>
-                <div className="flex-shrink-0 w-80 h-60 relative rounded-lg overflow-hidden">
+                <div className="flex-shrink-0 w-72 sm:w-80 lg:w-96 h-48 sm:h-60 lg:h-72 relative rounded-lg overflow-hidden">
                   <Image src="/images/classroom-4.jpg" alt="Групповые упражнения" fill className="object-cover" />
                 </div>
-                <div className="flex-shrink-0 w-80 h-60 relative rounded-lg overflow-hidden">
+                <div className="flex-shrink-0 w-72 sm:w-80 lg:w-96 h-48 sm:h-60 lg:h-72 relative rounded-lg overflow-hidden">
                   <Image src="/images/classroom-5.jpg" alt="Работа в парах" fill className="object-cover" />
                 </div>
-                <div className="flex-shrink-0 w-80 h-60 relative rounded-lg overflow-hidden">
+                <div className="flex-shrink-0 w-72 sm:w-80 lg:w-96 h-48 sm:h-60 lg:h-72 relative rounded-lg overflow-hidden">
                   <Image src="/images/student-portrait.jpg" alt="Студент курса" fill className="object-cover" />
                 </div>
-                <div className="flex-shrink-0 w-80 h-60 relative rounded-lg overflow-hidden">
+                <div className="flex-shrink-0 w-72 sm:w-80 lg:w-96 h-48 sm:h-60 lg:h-72 relative rounded-lg overflow-hidden">
                   <Image src="/images/group-photo.jpg" alt="Групповое фото студентов" fill className="object-cover" />
                 </div>
-                <div className="flex-shrink-0 w-80 h-60 relative rounded-lg overflow-hidden">
+                <div className="flex-shrink-0 w-72 sm:w-80 lg:w-96 h-48 sm:h-60 lg:h-72 relative rounded-lg overflow-hidden">
                   <Image
                     src="/images/student-performance-2.jpg"
                     alt="Студентка в спектакле"
@@ -521,7 +521,7 @@ export default function BelenevaCinemaLanding() {
                     className="object-cover"
                   />
                 </div>
-                <div className="flex-shrink-0 w-80 h-60 relative rounded-lg overflow-hidden">
+                <div className="flex-shrink-0 w-72 sm:w-80 lg:w-96 h-48 sm:h-60 lg:h-72 relative rounded-lg overflow-hidden">
                   <Image src="/images/classroom-2.jpg" alt="Лекция в аудитории" fill className="object-cover" />
                 </div>
               </div>
@@ -539,18 +539,18 @@ export default function BelenevaCinemaLanding() {
             </div>
 
             <div className="relative overflow-hidden rounded-lg">
-              <div className="flex gap-4 overflow-x-auto pb-4 scrollbar-hide">
-                <div className="flex-shrink-0 w-80 h-60 relative rounded-lg overflow-hidden">
-                  <iframe
-                    src="https://vkvideo.ru/video_ext.php?oid=-229224311&id=456239019&hd=1"
-                    width="320"
-                    height="240"
-                    allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
-                    frameBorder="0"
-                    allowFullScreen
-                    className="w-full h-full rounded-lg"
-                    title="Актерские упражнения"
-                  />
+              <div className="flex gap-4 overflow-x-auto pb-4 scrollbar-hide justify-start md:justify-center">
+                <div className="flex-shrink-0 w-72 sm:w-80 lg:w-96 relative rounded-lg overflow-hidden">
+                  <div className="aspect-video relative">
+                    <iframe
+                      src="https://vkvideo.ru/video_ext.php?oid=-229224311&id=456239019&hd=1"
+                      allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
+                      frameBorder="0"
+                      allowFullScreen
+                      className="absolute inset-0 w-full h-full rounded-lg"
+                      title="Актерские упражнения"
+                    />
+                  </div>
                   <div className="absolute bottom-2 left-2 right-2 pointer-events-none">
                     <div className="bg-black/70 rounded px-2 py-1">
                       <p className="text-white text-xs font-light">Практические занятия по актерскому мастерству</p>
@@ -558,17 +558,17 @@ export default function BelenevaCinemaLanding() {
                   </div>
                 </div>
 
-                <div className="flex-shrink-0 w-80 h-60 relative rounded-lg overflow-hidden">
-                  <iframe
-                    src="https://vkvideo.ru/video_ext.php?oid=-229224311&id=456239017&hd=1"
-                    width="320"
-                    height="240"
-                    allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
-                    frameBorder="0"
-                    allowFullScreen
-                    className="w-full h-full rounded-lg"
-                    title="Групповые этюды"
-                  />
+                <div className="flex-shrink-0 w-72 sm:w-80 lg:w-96 relative rounded-lg overflow-hidden">
+                  <div className="aspect-video relative">
+                    <iframe
+                      src="https://vkvideo.ru/video_ext.php?oid=-229224311&id=456239017&hd=1"
+                      allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
+                      frameBorder="0"
+                      allowFullScreen
+                      className="absolute inset-0 w-full h-full rounded-lg"
+                      title="Групповые этюды"
+                    />
+                  </div>
                   <div className="absolute bottom-2 left-2 right-2 pointer-events-none">
                     <div className="bg-black/70 rounded px-2 py-1">
                       <p className="text-white text-xs font-light">Студенты выполняют творческие задания</p>
@@ -576,17 +576,17 @@ export default function BelenevaCinemaLanding() {
                   </div>
                 </div>
 
-                <div className="flex-shrink-0 w-80 h-60 relative rounded-lg overflow-hidden">
-                  <iframe
-                    src="https://vkvideo.ru/video_ext.php?oid=-229224311&id=456239018&hd=1"
-                    width="320"
-                    height="240"
-                    allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
-                    frameBorder="0"
-                    allowFullScreen
-                    className="w-full h-full rounded-lg"
-                    title="Режиссерская работа"
-                  />
+                <div className="flex-shrink-0 w-72 sm:w-80 lg:w-96 relative rounded-lg overflow-hidden">
+                  <div className="aspect-video relative">
+                    <iframe
+                      src="https://vkvideo.ru/video_ext.php?oid=-229224311&id=456239018&hd=1"
+                      allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
+                      frameBorder="0"
+                      allowFullScreen
+                      className="absolute inset-0 w-full h-full rounded-lg"
+                      title="Режиссерская работа"
+                    />
+                  </div>
                   <div className="absolute bottom-2 left-2 right-2 pointer-events-none">
                     <div className="bg-black/70 rounded px-2 py-1">
                       <p className="text-white text-xs font-light">Работа режиссера с актерами на площадке</p>
